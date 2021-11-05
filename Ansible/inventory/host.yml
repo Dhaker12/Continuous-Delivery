@@ -1,4 +1,4 @@
-localhost ansible_connection=local
+localhost ansible_connection=local ansible_user=dhaker  ansible_become_pass=root
 
 [Server]
 localhost
