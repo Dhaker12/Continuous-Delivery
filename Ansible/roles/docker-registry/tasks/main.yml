@@ -13,7 +13,7 @@
     name: devops
     source: build
     build: 
-    	path: /var/lib/jenkins/workspace/CD
+       path: /var/lib/jenkins/workspace/CD
     repository: dhakerkarous/devops
     tag: latest
     push: yes
