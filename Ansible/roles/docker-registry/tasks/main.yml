@@ -14,3 +14,9 @@
     repository: dhakerkarous/devops
     tag: latest
     push: yes
+#-----------------
+- name: Remove image name 
+  docker_image:
+    state: absent
+    name: dhakerkarous/devops
+    tag: latest
